@@ -37,6 +37,7 @@ main {
 }
 .body{
     text-align:left;
+    line-height: 1.65;
     background-color: #fff;
     border-color: #dddddd;
     color:#777777;
@@ -46,10 +47,16 @@ main {
     border:1px solid #dddddd;
     margin: 40px auto;
     padding: 40px;
-   
-    
-    
+    position: relative;
+    top: 10%;
 }
+
+img {
+    float: left;
+    padding: 10px;
+
+}
+
 
 .footer{
     height: 40px;
@@ -73,8 +80,6 @@ main {
     border-right: 1px solid #dddddd;
     padding:10px;
     margin-right: 200px;
-    
-    
 }
 
 
