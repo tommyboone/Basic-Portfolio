@@ -1,57 +1,62 @@
 .head{
-    height:50px;
+    height:70px;
     width: 100%;
     background-color:#fff;
     position: absolute;
-    color: #777777;
+    color: #9c9c9c;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border-bottom: 2px solid #dddddd;
+    border-bottom: 2px solid #cecdcd;
     top: 0;
     left:0;
     right:0;
+    
    
   
 }
 
 main {
-    background-color:#e0e0e0;
-}
+    background-color:#ecebeb;
+    background-image: url("https://www.transparenttextures.com/patterns/az-subtle.png");
+    height: 780px;
 
-.MyName {
+}
+.Header {
     display: inline-block;
     height: 50px;
-    width: 180px;
+    width: 210px;
     background-color:#4aaaa5;
     color: white;
-    left: 15%;
+    left: 14%;
     position: absolute;
     text-align: center;
+    padding: 10px;
+
+    
 
 
 }
 .body{
-    display: inline-block;
     text-align:left;
     background-color: #fff;
     border-color: #dddddd;
     color:#777777;
-    height: 600px;
-    width: 800px;
+    height: 400px;
+    width: 960px;
     font-family:Arial, Helvetica, sans-serif;
-    border:1px solid lightgray;
+    border:1px solid #dddddd;
     margin: 40px auto;
-    padding: 25px;
+    padding: 40px;
+   
     
-
     
 }
 
 .footer{
     height: 40px;
-    width: 100%;
+    width: 99%;
     position: absolute;
     background-color:#666666;
-    color: #fff;
+    color: lightgray;
     text-align: center;
     bottom: 0;
     border-top: 10px solid #4aaaa5;
@@ -61,16 +66,46 @@ main {
 }
 
 .Information{
+    font-family:Arial, Helvetica, sans-serif;
     float:right;
     margin: 10px;
     font-size: 16px;
-
+    border-right: 1px solid #dddddd;
+    padding:10px;
+    margin-right: 200px;
+    
+    
 }
 
+
 h2{ 
+    top: 10px;
     color: #4aaaa5;
     text-align:left;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 26px;
 
 }
 
+input{
+    width:100%;
+    height: 20px;
+    
+}
+input[type=submit]{
+    color:#fff;
+    background-color:#4aaaa5;
+    width: 80px;
+    height: 20px;
+    border:2px solid #dddddd;
+    
+}
+input[type=submit]:hover {
+    background-color: #e712d5;
+  }
+
+textarea{
+    width:100%;
+    height: 100px;
+
+}
