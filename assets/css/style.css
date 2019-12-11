@@ -9,9 +9,7 @@
     top: 0;
     left:0;
     right:0;
-    
-   
-  
+
 }
 
 main {
@@ -66,7 +64,7 @@ img {
     color: lightgray;
     text-align: center;
     bottom: 0;
-    border-top: 10px solid #4aaaa5;
+    border-top: 8px solid #4aaaa5;
     font-size: 12px;
     font-family: sans-serif;
 
@@ -90,6 +88,10 @@ h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 26px;
 
+}
+
+form{
+    line-height: 1.9;
 }
 
 input{
