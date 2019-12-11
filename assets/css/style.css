@@ -2,7 +2,7 @@
     height:70px;
     width: 100%;
     background-color:#fff;
-    position: absolute;
+    position: fixed;
     color: #9c9c9c;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-bottom: 2px solid #cecdcd;
@@ -59,7 +59,7 @@ img {
 .footer{
     height: 40px;
     width: 99%;
-    position: absolute;
+    position: fixed;
     background-color:#666666;
     color: lightgray;
     text-align: center;
@@ -74,8 +74,7 @@ img {
     font-family:Arial, Helvetica, sans-serif;
     float:right;
     margin: 10px;
-    font-size: 16px;
-    border-right: 1px solid #dddddd;
+    font-size: 15px;
     padding:10px;
     margin-right: 200px;
 }
@@ -113,6 +112,58 @@ input[type=submit]:hover {
 
 textarea{
     width:100%;
-    height: 100px;
+    height:120px;
+}
+
+#About {
+    padding: 5px;
+    border-right: 1px solid lightgray;
+    display: inline-block;
 
 }
+ #Portfolio{
+    padding: 5px;
+    border-right: 1px solid lightgray;
+    display: inline-block;
+ }
+
+ #Contact{
+    padding: 5px;
+    border-right: 1px solid lightgray;
+    display: inline-block;
+ }
+
+ #About:hover{
+     color:#e712d5;
+     
+ }
+ #Portfolio:hover{
+    color:#e712d5;
+ }
+ #Contact:hover{
+    color:#e712d5;
+ }
+
+ #CityPicture:hover{
+    
+     -moz-box-shadow: 0 0 10px #ccc;
+      -webkit-box-shadow: 0 0 10px #ccc;
+      box-shadow: 0 0 20px #ccc;
+      opacity: 0.4;
+   
+    
+ }
+ #PeanutPicture:hover{
+    -moz-box-shadow: 0 0 10px #ccc;
+      -webkit-box-shadow: 0 0 10px #ccc;
+      box-shadow: 0 0 20px #ccc;
+      opacity: 0.4;
+ }
+ #DogPicture:hover{
+    -moz-box-shadow: 0 0 10px #ccc;
+      -webkit-box-shadow: 0 0 10px #ccc;
+      box-shadow: 0 0 20px #ccc;
+      opacity: 0.4;
+ }
+
+ 
