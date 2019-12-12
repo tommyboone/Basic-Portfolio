@@ -135,9 +135,7 @@ textarea{
     color:#e712d5;
  }
 
- a:link{
-    text-decoration: none;
- }
+
  #CityPicture:hover{
     
      -moz-box-shadow: 0 0 10px #ccc;
@@ -160,3 +158,6 @@ textarea{
  }
 
 
+ a:link{
+    text-decoration: none;
+ }
