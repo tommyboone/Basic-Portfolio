@@ -14,7 +14,7 @@
 
 main {
     background-color:#ecebeb;
-    background-image: url("https://www.transparenttextures.com/patterns/az-subtle.png");
+    background-image: url(../images/background-image);
     height: 780px;
 
 }
@@ -77,6 +77,7 @@ img {
     font-size: 15px;
     padding:10px;
     margin-right: 200px;
+    
 }
 
 
@@ -115,23 +116,13 @@ textarea{
     height:120px;
 }
 
-#About {
+#About, #Portfolio, #Contact {
     padding: 5px;
     border-right: 1px solid lightgray;
     display: inline-block;
+    color: #9c9c9c;
 
 }
- #Portfolio{
-    padding: 5px;
-    border-right: 1px solid lightgray;
-    display: inline-block;
- }
-
- #Contact{
-    padding: 5px;
-    border-right: 1px solid lightgray;
-    display: inline-block;
- }
 
  #About:hover{
      color:#e712d5;
