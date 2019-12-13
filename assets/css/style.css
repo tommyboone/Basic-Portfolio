@@ -198,15 +198,20 @@ textarea{
 
  }
  .citytext:hover{
-    background-color:#e712d5;
-    
+    color:#e712d5;
+    background-color:#BDFFFC;
+
  }
  .peanuttext:hover{
-     background-color:#e712d5;
+    color:#e712d5;
+    background-color:#BDFFFC;
+    
  }
+
 
 
  .dogtext:hover{
-     background-color:#e712d5;
+     color:#e712d5;
+     background-color:#BDFFFC;
 
  }
