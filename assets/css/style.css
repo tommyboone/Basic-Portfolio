@@ -162,3 +162,51 @@ textarea{
  a:link{
     text-decoration: none;
  }
+
+ .citytext {
+    float: left;
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #fff;
+    padding: 10px;
+    top:72.5%;
+    left:20.5%;
+    
+ }
+
+ .peanuttext{
+    float: left;
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #fff;
+    padding: 10px;
+    top:72.5%;
+    left:47.3%;
+    
+ }
+
+ 
+ .dogtext{
+    float: left;
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #fff;
+    padding: 10px;
+    top:72.5%;
+    left:67.3%;
+    
+
+ }
+ .citytext:hover{
+    background-color:#e712d5;
+    
+
+ .peanuttext:hover{
+     background-color:#e712d5;
+ }
+
+
+ .dogtext:hover{
+     background-color:#e712d5;
+
+ }
